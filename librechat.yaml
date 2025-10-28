@@ -1,0 +1,14 @@
+version: 1.0
+app:
+  title: "EdilX"
+  description: "AI builder assistant"
+pre_configured_ai:
+  openai:
+    api_key: ${OPENAI_API_KEY}
+    models:
+      - id: gpt-4o-mini
+        name: "EdilX GPT"
+        hidden: true
+      - id: gpt-4o
+        name: "EdilX Advanced"
+        hidden: true
