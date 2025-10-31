@@ -1,1 +1,8 @@
-
+fastapi
+uvicorn
+openai
+pymongo
+python-dotenv
+lxml
+python-docx
+pymupdf
